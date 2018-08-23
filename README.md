@@ -340,7 +340,7 @@ These are basically copied from Readthedocs, and then slightly altered, because 
 
 If you want to make certificates, use the example configs and the commands on this page (though you might have to tweak the parameters for the filenames).
 
-To learn more, read the Info.md file, which I forked from a Gist of some dude. It explains a lot about how the certs are structured.  
+To learn more, read [this file](./gist-using_openssl.md), which I forked from a Gist of some dude. It explains a lot about how the certs are structured.  
 To learn more about PKI Management (with `openssl ca`) read: [OpenSSL PKI Tutorial](https://pki-tutorial.readthedocs.io/en/latest/simple/server.conf.html)  
 That latter one is very comprehensive.
 
