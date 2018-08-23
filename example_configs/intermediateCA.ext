@@ -1,0 +1,6 @@
+# x509v3 Extensions for Intermediate CA
+
+keyUsage		= critical,keyCertSign,cRLSign
+basicConstraints	= critical,CA:true,pathlen:12	# You may omit pathlen or set it to any other number
+subjectKeyIdentifier	= hash
+authorityKeyIdentifier	= keyid,issuer			# You could also use keyid:always or issuer:always instead

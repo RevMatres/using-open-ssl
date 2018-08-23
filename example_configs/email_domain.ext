@@ -1,0 +1,7 @@
+# x509v3 Extensions for TLS Domain Certificate
+
+keyUsage		= critical,digitalSignature,keyEncipherment
+extendedKeyUsage	= emailProtection,clientAuth
+basicConstraints	= critical,CA:false
+subjectKeyIdentifier	= hash
+authorityKeyIdentifier	= keyid,issuer			# You could also use keyid:always or issuer:always instead
